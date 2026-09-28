@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: trtllm-cluster
+  namespace: trt-serving
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: trtllm-cluster
+  template:
+    metadata:
+      labels:
+        app: trtllm-cluster
+    spec:
+      containers:
+        - name: trt-server
+          image: nvcr.io/nvidia/tritonserver:24.06-trtllm-py3
+          resources:
+            limits:
+              nvidia.com/gpu: 8
+              memory: 256Gi
+            requests:
+              nvidia.com/gpu: 8
+              memory: 128Gi
+          ports:
+            - containerPort: 8001
+              name: grpc

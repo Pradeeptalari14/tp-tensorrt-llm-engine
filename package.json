@@ -1,0 +1,12 @@
+{
+  "name": "tp-tensorrt-llm-engine",
+  "version": "1.0.0",
+  "description": "NVIDIA TensorRT-LLM multi-GPU engine builder with Tensor Parallelism (TP=8), in-flight batching, and NVLink collective communication",
+  "main": "grpc_inference_client.ts",
+  "scripts": {
+    "test": "bash scripts/validate.sh"
+  },
+  "keywords": ["tensorrt-llm", "nvidia", "h100", "nvlink", "tensor-parallelism", "fp8", "sre"],
+  "author": "Talari Pradeep <talaripradeep14@gmail.com>",
+  "license": "MIT"
+}
