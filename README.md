@@ -1,3 +1,6 @@
+[![Ecosystem](https://img.shields.io/badge/Portfolio%20Ecosystem-341%20Studios-6366f1.svg)](https://pradeeptalari.me/projects/)
+[![Architecture DAG](https://img.shields.io/badge/Architecture-DAG%20%26%20Course-10b981.svg)](https://pradeeptalari.me/tools/repo-learning/)
+
 # NVIDIA TensorRT-LLM Multi-GPU Engine Studio
 
 [![CI SRE Validation](https://github.com/Pradeeptalari14/tp-tensorrt-llm-engine/actions/workflows/sre-validation.yml/badge.svg)](https://github.com/Pradeeptalari14/tp-tensorrt-llm-engine/actions)
@@ -20,3 +23,6 @@ git clone https://github.com/Pradeeptalari14/tp-tensorrt-llm-engine.git
 cd tp-tensorrt-llm-engine
 bash scripts/validate.sh
 ```
+
+---
+*Synchronized with [TensorRT-LLM Multi-GPU Tensor Parallelism Studio Studio](https://pradeeptalari.me/tools/tensorrt-llm-engine/) & [Repository Learning DAG](https://pradeeptalari.me/tools/repo-learning/) — [Talari Pradeep Portfolio](https://pradeeptalari.me)*
